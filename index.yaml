@@ -5,6 +5,6 @@
 distributions:
   solteq:
     distribution: [solteq/distribution.yaml]
-    distribution_cache: http://192.168.194.101/rosdistro_cache/solteq-cache.yaml.gz
+    #distribution_cache: http://192.168.194.101/rosdistro_cache/solteq-cache.yaml.gz
 type: index
 version: 3
