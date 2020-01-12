@@ -6,19 +6,19 @@ release_platforms:
   ubuntu:
     - xenial
 repositories:
-  ackermann_controller:
+  core_pkg:
     doc:
       type: git
-      url: https://github.com/easymov/ackermann_controller.git
+      url: git@github.com:Solteq/inventory-robot-ros-core.git
       version: master
     release:
       tags:
-        release: release/kinetic/{package}/{version}
-      url: https://github.com/easymov/ackermann_controller-release.git
-      version: 0.1.2-0
+        release: "{version}"
+      url: git@github.com:Solteq/inventory-robot-ros-core.git
+      version: "0.3.2"
     source:
       type: git
-      url: https://github.com/easymov/ackermann_controller.git
+      url: git@github.com:Solteq/inventory-robot-ros-core.git
       version: master
     status: developed
 type: distribution
