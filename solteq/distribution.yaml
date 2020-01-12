@@ -1,0 +1,25 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 143: http://ros.org/reps/rep-0143.html
+---
+release_platforms:
+  ubuntu:
+    - xenial
+repositories:
+  core_pkg:
+    doc:
+      type: git
+      url: https://github.com/Solteq/inventory-robot-ros-core.git
+      version: master
+    release:
+      tags:
+        release: release/solteq/{package}/{version}
+      url: https://github.com/Solteq/inventory-robot-ros-core.git
+      version: 0.3.2
+    source:
+      type: git
+      url: https://github.com/Solteq/inventory-robot-ros-core.git
+      version: master
+    status: developed
+type: distribution
+version: 2

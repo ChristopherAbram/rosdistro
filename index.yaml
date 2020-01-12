@@ -1,0 +1,10 @@
+%YAML 1.1
+# ROS index file
+# see REP 143: http://ros.org/reps/rep-0143.html
+---
+distributions:
+  solteq:
+    distribution: [solteq/distribution.yaml]
+    distribution_cache: http://192.168.194.101/rosdistro_cache/solteq-cache.yaml.gz
+type: index
+version: 3
