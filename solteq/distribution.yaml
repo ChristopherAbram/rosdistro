@@ -9,16 +9,16 @@ repositories:
   core_pkg:
     doc:
       type: git
-      url: https://github.com/Solteq/inventory-robot-ros-core.git
+      url: git@github.com:Solteq/inventory-robot-ros-core.git
       version: master
     release:
       tags:
         release: master
-      url: https://github.com/Solteq/inventory-robot-ros-core.git
+      url: git@github.com:Solteq/inventory-robot-ros-core.git
       version: master
     source:
       type: git
-      url: https://github.com/Solteq/inventory-robot-ros-core.git
+      url: git@github.com:Solteq/inventory-robot-ros-core.git
       version: master
     status: developed
 type: distribution
