@@ -12,6 +12,7 @@ repositories:
       url: git@github.com:Solteq/inventory-robot-ros-core.git
       version: master
     release:
+      type: git
       tags:
         release: master
       url: git@github.com:Solteq/inventory-robot-ros-core.git
