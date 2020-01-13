@@ -3,7 +3,7 @@ core_pkg:
   ubuntu:
     xenial:
       apt:
-        packages: [ros-solteq-core-pkg]
+        packages: [ros-kinetic-core-pkg]
 
 air_core_pkg:
   ubuntu:

@@ -3,8 +3,8 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 distributions:
-  solteq:
-    distribution: [solteq/distribution.yaml]
-    distribution_cache: http://192.168.194.101/rosdistro_cache/solteq-cache.yaml.gz
+  kinetic:
+    distribution: [kinetic/distribution.yaml, kinetic/sqint-distribution.yaml]
+    distribution_cache: http://192.168.194.101/rosdistro_cache/kinetic-cache.yaml.gz
 type: index
 version: 3
