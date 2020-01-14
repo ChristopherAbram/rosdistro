@@ -4,7 +4,7 @@
 ---
 distributions:
   kinetic:
-    distribution: [kinetic/distribution.yaml, sqint-kinetic/distribution.yaml]
+    distribution: [kinetic/distribution.yaml, kinetic-sqint/distribution.yaml]
     distribution_cache: http://192.168.194.101/rosdistro_cache/kinetic-cache.yaml.gz
 type: index
 version: 3
