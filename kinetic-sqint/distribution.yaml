@@ -8,20 +8,20 @@ release_platforms:
   ubuntu:
     - xenial
 repositories:
-  core_pkg:
+  test_pkg:
     doc:
       type: git
-      url: git@github.com:Solteq/inventory-robot-ros-core.git
+      url: git@github.com:Solteq/inventory-robot-ros-test.git
       version: kinetic-develop
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: git@github.com:Solteq/inventory-robot-ros-core-release.git
-      version: 0.3.2-1
+      url: git@github.com:Solteq/inventory-robot-ros-test-release.git
+      version: 1.3.0-0
     source:
       test_pull_requests: true
       type: git
-      url: git@github.com:Solteq/inventory-robot-ros-core.git
+      url: git@github.com:Solteq/inventory-robot-ros-test.git
       version: kinetic-develop
     status: developed
 type: distribution
