@@ -6,6 +6,22 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
+  air_core_pkg:
+    doc:
+      type: git
+      url: git@github.com:Solteq/inventory-robot-ros-air-core.git
+      version: kinetic-develop
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/Solteq/inventory-robot-ros-air-core-release.git
+      version: 0.2.3-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: git@github.com:Solteq/inventory-robot-ros-air-core.git
+      version: kinetic-develop
+    status: developed
   core_pkg:
     doc:
       type: git
